@@ -1,0 +1,5 @@
+This is a list of assumptions I have made when creating the program:
+- the maxRange (which indicates the size of the matrix), can be changed by the user as it is a constant variable at the begining of the code
+- the minRange is just used to ensure a lot of live cells are establish at the begining which can also be changed by the user 
+- as this is suppose to work with an infinite sized grid, this is not cannot be physically implemented, therefore a large number of the grid can be initiated
+- the grid does have finite sides (eg. very right column does not connect with a the very left column , like a cylinder)
